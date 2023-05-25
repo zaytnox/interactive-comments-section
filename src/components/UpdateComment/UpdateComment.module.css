@@ -1,0 +1,17 @@
+.updateComment {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 16px;
+}
+.updateComment textarea {
+  width: 100%;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid var(--light-gray);
+  font-size: 1.6rem;
+}
+
+.updateComment textarea:focus {
+  border-color: var(--moderate-blue);
+}

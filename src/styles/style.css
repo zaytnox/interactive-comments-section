@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --moderate-blue: hsl(238, 40%, 52%);
+  --soft-red: hsl(358, 79%, 66%);
+  --light-grayish-blue: hsl(239, 57%, 85%);
+  --pale-red: hsl(357, 100%, 86%);
+  --dark-blue: hsl(212, 24%, 26%);
+  --grayish-blue: hsl(211, 10%, 45%);
+  --light-gray: hsl(223, 19%, 93%);
+  --very-light-gray: hsl(228, 33%, 97%);
+  --white: hsl(0, 0%, 100%);
+}
+
+button,
+input,
+textarea {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  resize: none;
+  font-family: inherit;
+  line-height: 145%;
+}
+
+html {
+  font-family: 'Rubik', sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--very-light-gray);
+}
+
+ul {
+  list-style: none;
+}
+
+p {
+  font-size: 1.6rem;
+  color: var(--grayish-blue);
+  line-height: 145%;
+}

@@ -1,0 +1,37 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  max-width: 375px;
+  background-color: var(--white);
+  padding: 24px;
+  border-radius: 8px;
+}
+.box span {
+  /* margin-bottom: 16px; */
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.buttons button {
+  width: 100%;
+  padding: 16px 16px;
+  background-color: var(--grayish-blue);
+  border-radius: 8px;
+  color: var(--white);
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+.buttons button:hover {
+  opacity: 0.5;
+}
+.buttons .delete {
+  background-color: var(--soft-red);
+}

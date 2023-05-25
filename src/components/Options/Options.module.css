@@ -1,0 +1,29 @@
+.options {
+  display: flex;
+  gap: 16px;
+}
+.option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--moderate-blue);
+}
+.option.delete {
+  color: var(--soft-red);
+}
+.option:hover {
+  opacity: 0.5;
+}
+
+@media (min-width: 650px) {
+  .options:not(.desktop) {
+    display: none;
+  }
+}
+@media (max-width: 650px) {
+  .options.desktop {
+    display: none;
+  }
+}

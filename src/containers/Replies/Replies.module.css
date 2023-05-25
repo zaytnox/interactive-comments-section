@@ -1,0 +1,15 @@
+.replies {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 16px;
+  border-left: 2px solid var(--light-gray);
+  padding-left: 16px;
+}
+
+@media (min-width: 650px) {
+  .replies {
+    padding-left: 40px;
+    margin-left: 40px;
+  }
+}
