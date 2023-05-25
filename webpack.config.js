@@ -49,8 +49,10 @@ module.exports = {
       favicon: './images/favicon-32x32.png',
     }),
     new CopyPlugin({
-      patterns: [{ from: 'images', to: 'images' }],
-      patterns: [{ from: 'design', to: 'design' }],
+      patterns: [
+        { from: 'images', to: 'images' },
+        { from: 'design', to: 'design' },
+      ],
     }),
   ],
 };
