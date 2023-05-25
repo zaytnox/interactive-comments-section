@@ -3,7 +3,7 @@ const CopyPlugin = require('copy-webpack-plugin');
 const path = require('path');
 
 module.exports = {
-  mode: 'development',
+  mode: 'production',
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
@@ -52,13 +52,4 @@ module.exports = {
       patterns: [{ from: 'images', to: 'images' }],
     }),
   ],
-  devServer: {
-    static: {
-      directory: path.join(__dirname, 'dist'),
-      publicPath: '/',
-    },
-    open: true,
-    liveReload: true,
-    historyApiFallback: true,
-  },
 };
